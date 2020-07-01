@@ -1,0 +1,12 @@
+.Buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .button {
+        padding: 10px;
+        width: 52px;
+        color: black;
+        border: 1px solid grey;
+    }
+}

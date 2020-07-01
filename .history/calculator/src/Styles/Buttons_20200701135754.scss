@@ -1,0 +1,10 @@
+.Buttons {
+    display: flex;
+    justify-content: center;
+    .button {
+        padding: 10px;
+        width: 52px;
+        color: black;
+        border: 1px solid grey;
+    }
+}

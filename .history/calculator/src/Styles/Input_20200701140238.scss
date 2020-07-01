@@ -1,0 +1,16 @@
+.Input {
+   display: flex;
+   justify-content: center;
+   width: 300px;
+    input {
+        width: 255px;
+        padding: 15px 10px;
+        color: black;
+        font-size: 18px;
+        
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

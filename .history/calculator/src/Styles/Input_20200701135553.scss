@@ -1,0 +1,12 @@
+.Input {
+    width: 200px;
+    input {
+        width: 100%;
+        padding-left: 5px;
+        
+
+        &:focus {
+            outline-color: whitesmoke;
+        }
+    }
+}

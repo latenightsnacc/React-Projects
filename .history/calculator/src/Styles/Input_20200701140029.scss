@@ -1,0 +1,14 @@
+.Input {
+   display: flex;
+   justify-content: center;
+   width: 300px;
+    input {
+        width: 251px;
+        padding: 10px;
+        
+
+        &:focus {
+            outline-color: whitesmoke;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.Buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .button {
+        padding: 10px;
+        width: 52px;
+        color: black;
+        border: 1px solid grey;
+    }
+}

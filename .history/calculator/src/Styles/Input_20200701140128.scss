@@ -1,0 +1,15 @@
+.Input {
+   display: flex;
+   justify-content: center;
+   width: 300px;
+    input {
+        width: 253px;
+        padding: 10px;
+        
+
+        &:focus {
+            outline: none;
+            outline-color: white;
+        }
+    }
+}
