@@ -32,7 +32,7 @@ class TodoItem extends Component {
             <>
                 <div style={this.cardStyle()}> 
                     <div style={this.getStyle()}>
-                        <input type="checkbox"  onChange={this.props.markComplete.bind(this, id)} checked={this.props.task.completed}/> &nbsp;
+                        <input type="checkbox" style={{backgroundColor:'black !important'}}  onChange={this.props.markComplete.bind(this, id)} checked={this.props.task.completed}/> &nbsp;
                         {title}
                     </div>
                     
